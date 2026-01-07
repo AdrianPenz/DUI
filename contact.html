@@ -14,8 +14,22 @@
         <div><h2>Kontaktiere Uns</h2></div>
         <div>
             <h3>Kontaktiere uns mithilfe der folgenden Möglichkeiten:</h3>
-            Schreib uns eine Nachricht auf Instagram: <a href="https://www.instagram.com/weitmannsiedlungschef/">Unser Instagram</a> <br>
-            Schicke uns eine E-Mail: diesemailexistiertnicht@gmail.com
+            <p>Schreib uns eine Nachricht auf Instagram: <a href="https://www.instagram.com/weitmannsiedlungschef/">Unser Instagram</a></p>
+            <p>Schicke uns eine E-Mail: diesemailexistiertnicht@gmail.com</p>
+            <h3>Oder schicke uns direkt eine Nachricht:</h3>
+
+            <form action="index.html" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Dein Name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Deine E-Mail" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" placeholder="Schreibe hier deine Nachricht..." required></textarea>
+
+  <button type="submit">Absenden</button>
+</form>
         </div>
     </main>
 </body>
