@@ -44,9 +44,15 @@ div {
 }
 
 footer {
+    height: 100px;
+    background-color: lightgray;
+    border-top-color: black;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding: 1rem;
+
+    box-shadow: 5px 5px 15px 5px gray;
 }
 
 .bild {
